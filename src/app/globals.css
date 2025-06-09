@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.sub-h1 {
+  font-size: 13px;
+}

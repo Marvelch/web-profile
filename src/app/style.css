@@ -5,7 +5,28 @@
   border-radius: 50%; /* full circle */
 }
 
-/* Border list color */
-.border-orange {
-  color: orange;
+/* Icon */
+.icon-experince {
+  font-size: 50px;
+}
+
+/* Slider */
+.swiper-wrapper {
+  width: 100%;
+  height: max-content !important;
+  padding-bottom: 64px !important;
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+.swiper-pagination-bullet {
+  background: #4f46e5;
+}
+.swiper-pagination-bullet-active {
+  background: #4f46e5 !important;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
