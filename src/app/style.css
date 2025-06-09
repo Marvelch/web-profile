@@ -1,0 +1,11 @@
+.avatar {
+  width: 180px; /* any equal width/height */
+  height: 180px;
+  object-fit: cover; /* keep aspect-ratio & crop overflow */
+  border-radius: 50%; /* full circle */
+}
+
+/* Border list color */
+.border-orange {
+  color: orange;
+}
