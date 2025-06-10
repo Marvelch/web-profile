@@ -30,6 +30,11 @@ h1 {
   font-weight: bold;
 }
 
-.sub-h1 {
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sub-highlight {
   font-size: 13px;
 }

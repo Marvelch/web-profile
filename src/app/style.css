@@ -30,3 +30,8 @@
   width: 600px;
   height: 300px;
 }
+
+.card-swiper {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ffffff85;
+}

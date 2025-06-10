@@ -22,8 +22,7 @@ export default function Home() {
           />
           <h1>Hi, I'm Marvel Ch</h1>
         </div>
-
-        <p className="sub-h1">
+        <p className="sub-highlight">
           Full Stack Developer | Tech Enthusiast | Lifelong Learner
         </p>
         <div className="w-full flex justify-center">
@@ -75,7 +74,7 @@ export default function Home() {
         </div>
         {/* Skill */}
         <div className="w-full pt-10 text-center items-center justify-center">
-          <h1>Experince With</h1>
+          <h1 className="uppercase">Experince With</h1>
           <div className="grid grid-cols-6 gap-2 icon-experince pt-8">
             <div>
               <i className="devicon-bootstrap-plain" title="Bootstrap"></i>
@@ -99,9 +98,92 @@ export default function Home() {
         </div>
         {/* Projects */}
         <div className="w-full pt-3.5 text-center items-center justify-center">
-          <h1>Projects</h1>
+          <h1 className="uppercase">Projects</h1>
           <div className="pt-5">
             <Slider />
+          </div>
+        </div>
+        {/* Experience */}
+        <div className="w-full text-center items-center px-4">
+          <h1 className="uppercase mb-4">Experience</h1>
+          <div className="flex flex-col items-center gap-6">
+            {" "}
+            {/* Stack secara vertikal */}
+            {/* Pengalaman 1 */}
+            <div className="w-full max-w-screen-md">
+              <div className="grid grid-cols-3 gap-3">
+                <div className="flex items-center gap-2 col-span-2">
+                  <Image
+                    src="/img/logo/bni.png"
+                    width={24}
+                    height={24}
+                    alt="PT Bank Negara Indonesia Tbk"
+                    className="object-contain border-2"
+                  />
+                  <h3 className="font-bold">PT Bank Negara Indonesia Tbk</h3>
+                </div>
+                <div className="text-end text-sm col-span-1">
+                  Jun 2024 - Saat ini
+                </div>
+                <div className="col-span-3 text-justify text-sm leading-relaxed">
+                  Sebagai System Analyst di BNI, saya bertanggung jawab dalam
+                  menganalisis kebutuhan bisnis dan merancang solusi sistem yang
+                  efisien serta sesuai dengan standar industri perbankan. Fokus
+                  utama saya adalah menjembatani komunikasi antara tim teknis
+                  dan pihak bisnis agar implementasi sistem berjalan optimal.
+                </div>
+              </div>
+            </div>
+            {/* Pengalaman 2 */}
+            <div className="w-full max-w-screen-md">
+              <div className="grid grid-cols-3 gap-3">
+                <div className="flex items-center gap-2 col-span-2">
+                  <Image
+                    src="/img/logo/skb.jpeg"
+                    width={24}
+                    height={24}
+                    alt="PT Sekar Bumi"
+                    className="object-contain rounded-lg"
+                  />
+                  <h3 className="font-bold">PT Sekar Bumi</h3>
+                </div>
+                <div className="text-end text-sm col-span-1">
+                  Mei 2023 - Mei 2024
+                </div>
+                <div className="col-span-3 text-justify text-sm leading-relaxed">
+                  Sebagai Head Section di PT Sekar Bumi, saya memimpin tim
+                  pengembangan sistem internal, mengelola proyek IT, serta
+                  memastikan kelancaran operasional dan integrasi sistem ERP
+                  untuk mendukung kebutuhan bisnis perusahaan.
+                </div>
+              </div>
+            </div>
+            {/* Pengalaman 3 */}
+            <div className="w-full max-w-screen-md">
+              <div className="grid grid-cols-3 gap-3">
+                <div className="flex items-center gap-2 col-span-2">
+                  <Image
+                    src="/img/logo/indocyber.jpeg"
+                    width={24}
+                    height={24}
+                    alt="PT Indocyber Global Teknologi"
+                    className="object-contain rounded-lg"
+                  />
+                  <h3 className="font-bold">PT Indocyber Global Teknologi</h3>
+                </div>
+                <div className="text-end text-sm col-span-1">
+                  Feb 2022 - Feb 2023
+                </div>
+                <div className="col-span-3 text-justify text-sm leading-relaxed">
+                  Sebagai PHP Developer di lingkungan perbankan, saya
+                  mengembangkan dan memelihara aplikasi internal menggunakan
+                  Laravel, serta mengoptimasi query SQL dan integrasi sistem.
+                  Selain itu, saya juga menangani pembuatan dan pengelolaan API
+                  menggunakan Axway API Gateway untuk memastikan komunikasi
+                  antar sistem berjalan aman dan sesuai standar.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>

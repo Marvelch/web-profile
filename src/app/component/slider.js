@@ -7,6 +7,7 @@ import { Navigation, Pagination, Mousewheel } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
@@ -31,12 +32,14 @@ export default function Slider() {
     >
       {data.slice(0, 5).map((product) => (
         <SwiperSlide key={product.id}>
-          <div className="h-full flex items-center justify-center bg-gray-100 p-4">
-            <div>
-              <img
+          <div className="h-full flex items-center justify-center card-swiper p-4 rounded-2xl border-2 border-solid">
+            <div className="flex gap-4">
+              <Image
                 src={product.images[0]}
                 alt={product.title}
-                className="w-32 h-32 object-cover mx-auto"
+                width={100}
+                height={100}
+                className="w-full object-cover mx-auto"
               />
               <h2 className="text-lg font-bold text-center mt-2">
                 {product.title}
