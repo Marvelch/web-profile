@@ -20,7 +20,7 @@ export default function Home() {
             width={50}
             height={50}
           />
-          <h1>Hi, I'm Marvel Ch</h1>
+          <h1>Hi, Im Marvel Ch</h1>
         </div>
         <p className="sub-highlight">
           Full Stack Developer | Tech Enthusiast | Lifelong Learner
