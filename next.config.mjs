@@ -6,9 +6,7 @@ const nextConfig = {
       "upload.wikimedia.org",
       "i.imgur.com",
       "sekarbumi.com",
-      "placehold.co",
-      "cdn.dummyjson.com",
-      "via.placeholder.com",
+      "cdn.projects.co.id",
     ],
   },
 };
